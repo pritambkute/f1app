@@ -1,6 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    color: white;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+
+  /* background: url(https://www.wallgroup.com/media/catalog/product/cache/ce339dd56671d6bccbcac0916ee6b376/w/0/w02488-small.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
 }

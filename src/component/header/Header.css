@@ -2,6 +2,9 @@
     position: sticky;
     top: 0;
     background-image: linear-gradient(to left, #e10600, transparent);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .header__image {
@@ -11,4 +14,12 @@
     width: 80px;
     height: 80px;
     cursor: pointer;
+}
+
+.header__text {
+    background: transparent;
+    font-size: 1.5em;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    font-family: 'Racing Sans One', cursive;
 }

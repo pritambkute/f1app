@@ -5,6 +5,7 @@ function Header() {
   return (
     <div className="header__container">
       <img className="header__image" src="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-0.png"/>
+      <div className="header__text">Formula One Champions</div>
     </div>
   );
 }
