@@ -1,0 +1,17 @@
+.footer__container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to right, #e10600, transparent);
+    height: 50px;
+}
+
+.footer__text {
+    position: absolute;
+    background: transparent;
+    padding-top: 5px;
+    margin: 10px 0px 10px 0px;
+}
