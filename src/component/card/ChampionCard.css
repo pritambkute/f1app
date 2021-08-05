@@ -3,19 +3,17 @@
   width: 25%;
   border: 1px solid;
   border-radius: 10px;
-  margin: 8px;
-  /* display: flex;
-    justify-content: center;
-    align-items: center; */
+  margin: 20px;
   cursor: pointer;
 }
 
 .card__year {
   text-align: center;
   padding: 15px;
-  background-image: linear-gradient(to right, #e10600, transparent);
-  border-radius: 10px 10px 0px 0px;
+  background-image: linear-gradient(to bottom, #223380, transparent);
   font-size: 1.5rem;
+  border-bottom-left-radius: 50% 40%;
+  border-bottom-right-radius: 50% 40%;
 }
 
 .card__drivername {
