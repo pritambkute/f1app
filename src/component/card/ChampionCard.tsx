@@ -1,21 +1,21 @@
 import React from "react";
 import "./ChampionCard.css";
 
-interface Props {
-  years: [];
+interface ChampionData {
+  championData: [];
 }
 
-function ChampionCard(props: Props) {
-  const years = props.years;
+function ChampionCard(props: ChampionData) {
+  const { championData } = props;
   return (
     <>
-      {years.map((year: number, index: number) => {
+      {championData && championData.map(({season, driverId, driverName, team}, index) => {
         return (
           <div className="card" key={index}>
             <div className="card__content">
-              <h2 className="card__year">{year}</h2>
-              <p className="card__drivername">Louis Hamilton</p>
-              <p className="card__teamname">Renault</p>
+              <h2 className="card__year">{season}</h2>
+              <p className="card__drivername">{driverName}</p>
+              <p className="card__teamname">{team}</p>
             </div>
           </div>
         );
